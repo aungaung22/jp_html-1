@@ -7,18 +7,18 @@
 <body>
 	<form method="" action="">
 		<label for="inputName">Name:</label>
-		<input type="text" name="name" id="inputName" required>
+		<input type="text" name="name" id="inputName" placeholder="Enter Your Name" required>
 		<br>
 		<label for="inputEmail">Email:</label>
-		<input type="Email" name="Email" id="inputEmail">
+		<input type="Email" name="Email" id="inputEmail" placeholder="Enter Your Email">
 		<br>
 		<label for="inputAge">Age:</label>
-		<input type="number" name="Age" id="inputAge" step="5">
+		<input type="number" name="Age" id="inputAge" placeholder="Enter Your Age" step="5">
 		<br>
 		<input type="hidden" name="oldvalue" value="mgmg">
 		<br>
 		<label>Gender:</label>
-		<input type="radio" name="Gender" value="male" id="inputMale" checked=""><label for="inputMale">Male</label>
+		<input type="radio" name="Gender" value="male" id="inputMale" checked><label for="inputMale">Male</label>
 		<input type="radio" name="Gender" value="female" id="inputFemale"><label for="inputFemale">Female</label>
 		<br>
 		<label>Hobbies:</label>
@@ -27,14 +27,21 @@
 		<input type="checkbox" name="Hobbies[]" value="reading" id="reading"><label for="reading">Reading:</label>
 		<br>
 		<label for="inputAddress">Address:</label>
-		<textarea id="inputAddress" name="address" rows="4"></textarea>
+		<textarea id="inputAddress" name="address" placeholder="Enter Your Address" rows="4"></textarea>
 		<br>
 		<label for="inputYear">Academic Year:</label>
 		<select name="academic_year" id="inputYear">
-			<optgroup label="Choose Academic Year">
+			<optgroup label="Formal Academic Year">
 			<option value="1">First Year</option>
 			<option value="2">Second Year</option>
 			<option value="3">Third Year</option>
+			<option value="3">Fourth Year</option>
+			</optgroup>
+			<optgroup label="Honours and Master Academic Year">
+			<option value="1">First Year Honours</option>
+			<option value="2">Second Year Honours</option>
+			<option value="3">Third Year Honours</option>
+			<option value="3">Master</option>
 			</optgroup>
 		</select>
 		<br>
